@@ -1,0 +1,26 @@
+.dropdown-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    height: 100%;
+    margin: 0;
+}
+
+ul li{
+    padding: 5px;
+    line-height: 3rem;
+}
+
+ul li:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.dropdown-container {
+    border: 1px solid #000;
+    background: #fff;
+    position: absolute;
+    margin: 0;
+    top: 3rem;
+    right: 4rem;
+}
